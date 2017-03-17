@@ -1,21 +1,20 @@
 {
-  "name": "citysdk",
+  "name": "citysdk-node2",
   "version": "1.0.0",
-  "description": "CitySDK API Wrapper",
+  "description": "CitySDK Node API Wrapper, based on original work from Chad Huber. This version is smarter about picking datasets automatically and supports non-ACS datasets.",
   "keywords": [
     "CitySDK",
     "census data"
   ],
-  "homepage": "https://github.com/chadhuber/citysdk",
+  "homepage": "https://github.com/atsepkov/citysdk-node",
   "author": {
-    "name": "Chad Huber",
-    "email": "chad.huber@gmail.com"
+    "name": "Alexander Tsepkov"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chadhuber/citysdk"
+    "url": "git://github.com/atsepkov/citysdk"
   },
-  "bugs:": "https://github.com/chadhuber/citysdk/issues",
+  "bugs:": "https://github.com/atsepkov/citysdk/issues",
   "engines": {
     "node": ">= v0.10.0"
   },
@@ -28,6 +27,6 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chadhuber/citysdk/issues"
+    "url": "https://github.com/atsepkov/citysdk/issues"
   }
 }

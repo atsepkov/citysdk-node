@@ -3,6 +3,8 @@
 
 A node package based on the public API Library via http://uscensusbureau.github.io/citysdk/
 
+This fork adds 2015 data, as well as 1990-2010 data to the SDK.
+
 
 ## Super simple to use
 
@@ -32,8 +34,8 @@ nb. Request your Census API Key at http://api.census.gov/data/key_signup.html
 
 ## Types of Requests
 
-There are two basic types of requests, `APIRequest()` which retrieves data based on the location and variables 
-you request and `GEORequest()` which will respond with the data in GEOJSON format including the bounding box 
+There are two basic types of requests, `apiRequest()` which retrieves data based on the location and variables 
+you request and `geoRequest()` which will respond with the data in GEOJSON format including the bounding box 
 coordinates data for creating maps
 
 ### Request Format
@@ -42,9 +44,9 @@ Both requests have the same basic format:
 
 ```js
 
-census.APIRequest(request, callback);
+census.apiRequest(request, callback);
 
-census.GEORequest(request, callback);
+census.geoRequest(request, callback);
 
 ```
 
@@ -80,7 +82,7 @@ __Data Options__
 
 ## Request Examples
 
-A simple APIRequest()
+A simple apiRequest()
 
 ```js
 
@@ -96,7 +98,7 @@ var request = {
   ]
 };
 
-census.APIRequest(request, function(response) {
+census.apiRequest(request, function(response) {
   console.log(response);
 });
 
