@@ -1,6 +1,6 @@
 {
   "name": "citysdk-node2",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "CitySDK Node API Wrapper, based on original work from Chad Huber. This version is smarter about picking datasets automatically and supports non-ACS datasets.",
   "keywords": [
     "CitySDK",
