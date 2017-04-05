@@ -3,7 +3,10 @@
 
 A node package based on the public API Library via http://uscensusbureau.github.io/citysdk/
 
-This fork adds 2015 data, as well as 1990-2010 data to the SDK.
+This fork adds:
+- 2015 data
+- 1990, and 2010 decennial data
+- caching and performance improvements for FIPS/area resolution
 
 
 ## Super simple to use
@@ -878,3 +881,5 @@ for a complete listing (or see https://gist.github.com/chadhuber/e03d4a13e79700a
 
 
 nb. This documentation is largely based off of the docs available at http://uscensusbureau.github.io/citysdk/guides/censusModule.html
+
+Note: zipcode data is based on http://federalgovernmentzipcodes.us/
