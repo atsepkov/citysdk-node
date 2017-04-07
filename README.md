@@ -7,6 +7,7 @@ This fork adds:
 - 2015 data
 - 1990, and 2010 decennial data
 - caching and performance improvements for FIPS/area resolution
+- better error handling/recovery from bad census server responses (they mix json and strings in responses, and sometimes their server is down altogether)
 
 
 ## Super simple to use

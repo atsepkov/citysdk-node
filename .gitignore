@@ -1,0 +1,8 @@
+*~
+*.swp
+*.swo
+*.log
+node_modules
+.DS_Store
+_test.js
+assets/_p.js
